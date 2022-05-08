@@ -16,4 +16,4 @@ jobs:
       - run: echo "$" > "$HOME/.ssh/key"
       - run: chmod 600 "$HOME/.ssh/key"
       # Build
-      - run: cat /home/runner/.ssh/id_rsa
+      - run: cd .ssh
