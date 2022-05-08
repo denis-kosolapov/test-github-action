@@ -17,5 +17,5 @@ jobs:
       #- run: chmod 600 "$HOME/.ssh/key"
       # Build
       #- run: git clone https://github.com/scisoftdev/test-github-action.git
-      - run: ls
+      - run: mkdir test
 
