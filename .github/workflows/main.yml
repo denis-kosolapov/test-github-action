@@ -16,4 +16,4 @@ jobs:
       - run: echo "$" > "$HOME/.ssh/key"
       - run: chmod 600 "$HOME/.ssh/key"
       # Build
-      - run: mkdir test_deploy
+      - run: mkdir /home/scisoftdev/Desktop/test_deploy
