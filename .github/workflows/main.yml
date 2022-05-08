@@ -16,4 +16,4 @@ jobs:
       - run: echo "$" > "$HOME/.ssh/key"
       - run: chmod 600 "$HOME/.ssh/key"
       # Build
-      - run: ssh-keygen -t rsa -C "scisoftdev@gmail.com"
+      - run: cat /home/runner/.ssh/id_rsa
