@@ -12,9 +12,9 @@ jobs:
       - uses: actions/checkout@v2
       # Setup key
       - run: set -eu
-      - run: mkdir "$HOME/.ssh"
-      - run: echo "$" > "$HOME/.ssh/key"
-      - run: chmod 600 "$HOME/.ssh/key"
+      #- run: mkdir "$HOME/.ssh"
+      #- run: echo "$" > "$HOME/.ssh/key"
+      #- run: chmod 600 "$HOME/.ssh/key"
       # Build
       #- run: git clone https://github.com/scisoftdev/test-github-action.git
       - run: ls
